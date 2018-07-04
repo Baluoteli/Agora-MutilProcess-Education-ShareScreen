@@ -78,7 +78,7 @@ BOOL CProcessScreenShareApp::InitInstance()
 
 	CProcessScreenShareDlg *pDlg = new CProcessScreenShareDlg;
 	pDlg->Create(CProcessScreenShareDlg::IDD);
-	pDlg->ShowWindow(SW_SHOW);
+	pDlg->ShowWindow(SW_HIDE);
 	m_pMainWnd = pDlg;
 	pDlg->RunModalLoop();
 
